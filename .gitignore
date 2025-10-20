@@ -1,0 +1,23 @@
+﻿# Python / Editor
+__pycache__/
+*.pyc
+.vscode/
+*.log
+
+# Local env & temp
+.env
+page.html
+ids_*.txt
+links_*.txt
+
+# Virtual env
+.venv/
+
+# Data & outputs (keep repo light)
+data/**/pdfs/**
+data/**/submissions.jsonl
+data/**/reviews.jsonl
+data/**/meta_reviews.jsonl
+data/**/decisions.jsonl
+out/
+*.zip
